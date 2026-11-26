@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ギア | ポートフォリオ</title>
+<meta name="description" content="早稲田文理専門学校 Web・アプリ学科 ギアのポートフォリオ。ゲームプログラマ志望。">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="logo" href="#top">ギア<span class="logo-dot">.</span>dev</a>
+    <nav class="nav">
+      <a href="#works">作品</a>
+      <a href="#skills">スキル</a>
+      <a href="#about">自己紹介</a>
+      <a href="#contact">連絡先</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+  <section class="hero">
+    <div class="container">
+      <p class="hero-badge">2028年3月 卒業予定 ・ 新卒採用</p>
+      <h1>ギア</h1>
+      <p class="hero-name-sub">Tran Le Hieu Nghia（トラン レ ヒエウ ギア）</p>
+      <p class="hero-role">ゲームプログラマ志望</p>
+      <p class="hero-text">早稲田文理専門学校 Web・アプリ学科の学生です。学校でJavaとWeb開発を学びながら、個人開発で2Dゲームと英語学習アプリを作っています。好きなゲームを「遊ぶ側」から「作る側」になりたいと思い、プログラマを目指しています。</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="#works">作品を見る</a>
+        <a class="btn btn-ghost" href="https://github.com/nghiamarzc05-hue" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="works" class="section">
+    <div class="container">
+      <h2 class="section-title">作品</h2>
+
+      <article class="work-card reveal">
+        <div class="work-body">
+          <p class="work-tag">卒業制作 ・ 個人開発</p>
+          <h3>2D農場RPG「Nông Trại Miền Tây」</h3>
+          <p>ベトナムの農村をテーマにしたブラウザで遊べる2Dゲームです。作物栽培と生き物集めとターン制バトルを組み合わせました。マップは8エリアあり、属性の違う生き物が16種類登場します。天気システムや釣り、料理などの要素も実装しています。データ保存にはFirebaseを使い、ログインすると別の端末でも続きから遊べます。</p>
+          <ul class="work-points">
+            <li>8エリアのマップと16種類のクリーチャー収集・育成</li>
+            <li>ターン制バトル（スキルとクールダウン管理）</li>
+            <li>作物栽培と料理、天候システム、釣りミニゲーム</li>
+            <li>Firebaseによるアカウント保存と自動セーブ</li>
+          </ul>
+          <p class="tech">使用技術： HTML / CSS / JavaScript / Firebase / SVGアニメーション</p>
+          <div class="work-links">
+            <a class="btn btn-primary btn-small" href="https://nghiamarzc05-hue.github.io/game_bat_thu/" target="_blank" rel="noopener">デモを遊ぶ</a>
+            <a class="btn btn-ghost btn-small" href="https://github.com/nghiamarzc05-hue/game_bat_thu" target="_blank" rel="noopener">GitHubで見る</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="work-card reveal">
+        <div class="work-body">
+          <p class="work-tag">個人開発</p>
+          <h3>英語フラッシュカードアプリ「Flashcard English Master」</h3>
+          <p>自分の英語学習のために作った単語学習アプリです。3Dで回転するフラッシュカードと、間隔反復（SRS）による復習管理で効率よく覚えられるようにしました。穴埋め練習や聞き取り入力、60秒のスピードマッチゲーム、4択クイズなど練習モードも複数実装しています。PWA対応でオフラインでも使えて、スマホにインストールできます。</p>
+          <ul class="work-points">
+            <li>間隔反復（SRS）による復習スケジュール管理</li>
+            <li>3Dフリップカードと品詞・IPA表示、音声読み上げ（英米の発音切替）</li>
+            <li>穴埋め・聞き取り・スピードマッチ・4択クイズの練習モード</li>
+            <li>学習ストリークと進捗管理、ダークモード、JSONバックアップ</li>
+          </ul>
+          <p class="tech">使用技術： HTML / CSS / JavaScript / PWA（Service Worker） / Web Speech API / LocalStorage</p>
+          <div class="work-links">
+            <a class="btn btn-primary btn-small" href="https://nghiamarzc05-hue.github.io/english-flashcard-app/" target="_blank" rel="noopener">デモを使う</a>
+            <a class="btn btn-ghost btn-small" href="https://github.com/nghiamarzc05-hue/english-flashcard-app" target="_blank" rel="noopener">GitHubで見る</a>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section id="skills" class="section section-alt">
+    <div class="container">
+      <h2 class="section-title">スキル</h2>
+      <div class="skill-grid">
+        <div class="skill-box reveal">
+          <h3>プログラミング言語</h3>
+          <ul>
+            <li>Java（学校の中心言語。クラス設計とオブジェクト指向を学習中）</li>
+            <li>JavaScript / HTML / CSS（個人開発の2作品で使用）</li>
+            <li>アルゴリズムとデータ構造を学習中</li>
+          </ul>
+        </div>
+        <div class="skill-box reveal">
+          <h3>ツール</h3>
+          <ul>
+            <li>Git / GitHub（GitHub PagesとNetlifyでの公開）</li>
+            <li>VS Code / Eclipse</li>
+            <li>Firebase（認証とデータ保存）</li>
+          </ul>
+        </div>
+        <div class="skill-box reveal">
+          <h3>資格</h3>
+          <ul>
+            <li>日本語能力試験 JLPT N2 合格（2025年）</li>
+            <li>Excel 3級 合格（2026年）</li>
+          </ul>
+        </div>
+        <div class="skill-box reveal">
+          <h3>語学</h3>
+          <ul>
+            <li>ベトナム語（母語）</li>
+            <li>日本語（JLPT N2。日常会話と業務対応が可能）</li>
+            <li>英語（学習中）</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="section">
+    <div class="container">
+      <h2 class="section-title">自己紹介</h2>
+      <div class="about-text reveal">
+        <p>ベトナム出身です。2024年に来日し、日本語学校（JCLI日本語学校）で日本語を学んだあと、2026年4月に早稲田文理専門学校のWeb・アプリ学科に入学しました。2028年3月に卒業予定です。</p>
+        <p>学校では1年次にJavaを中心に学んでいます。授業以外では自分のアイデアを形にするのが好きで、英語学習アプリと2Dゲームを公開しています。卒業制作では農場ゲームの完成を目指しています。</p>
+        <p>将来はゲームプログラマとして、プレイヤーが長く楽しめるゲームづくりに関わりたいと考えています。</p>
+      </div>
+      <dl class="profile-list reveal">
+        <div><dt>学校</dt><dd>早稲田文理専門学校 Web・アプリ学科（2028年3月卒業予定）</dd></div>
+        <div><dt>志望職種</dt><dd>ゲームプログラマ / Webエンジニア</dd></div>
+        <div><dt>興味分野</dt><dd>ゲーム開発、Webアプリ開発、ネットワークセキュリティ</dd></div>
+      </dl>
+    </div>
+  </section>
+
+  <section id="contact" class="section section-alt">
+    <div class="container contact-box">
+      <h2 class="section-title">連絡先</h2>
+      <p>作品のコードはすべてGitHubで公開しています。</p>
+      <a class="btn btn-primary" href="https://github.com/nghiamarzc05-hue" target="_blank" rel="noopener">GitHubプロフィール</a>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>© 2026 ギア（Tran Le Hieu Nghia）</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
